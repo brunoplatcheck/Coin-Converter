@@ -1,0 +1,15 @@
+
+    <div class="container">
+        <h1>Bank Currency Converter</h1>
+        <button onclick="showPrompt()">Choose Currency</button>
+    </div>
+
+    <div id="prompt" class="prompt-container">
+        <h2>Select a currency:</h2>
+        <input type="number" id="amount" placeholder="Enter amount in BRL"><br><br>
+        <label class="radio-label"><input type="radio" name="currency" value="dollar"> Dollar</label><br>
+        <label class="radio-label"><input type="radio" name="currency" value="euro"> Euro</label><br>
+        <label class="radio-label"><input type="radio" name="currency" value="won"> Won</label><br>
+        <button class="convert-btn" onclick="calculate()">Convert</button>
+        <button class="close-btn" onclick="closePrompt()">Close</button>
+    </div>
